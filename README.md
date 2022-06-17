@@ -7,6 +7,8 @@ Aplikasi ini menggunakan framework YOLOv4 by [Darknet](https://pages.github.com/
 Aplikasi ini dikembangkan untuk memenuhi persyaratan proyek akhir studi independen bersertifikat di PT. Orbit Future Academy dengan fokus AI Mastery.
 
 ### Dokumentasi Applikasi Web
+<br>
+![Halaman Utama Web](https://github.com/alifanadhira/ProctrON/blob/main/images/main.jpg) <br>
 
 
 
