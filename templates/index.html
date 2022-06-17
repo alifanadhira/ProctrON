@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ProctrON - Cheating Detector</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <nav>
+            <div class="name">
+                <a href="#"><h3>ProctrON</h3></a>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#detection">Detection</a>
+                </li>
+                <li>
+                    <a href="{{ url_for('result') }}">Result</a>
+                </li>
+                <li>
+                    <a href="#team">Team</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="hero-image">
+            <div class="container">
+                <div class="hero-text">
+                    <h1>
+                        <b>
+                            Cheating Detection
+                        </b>
+                    </h1>
+                    <p>
+                        Cheat Detector is an application that is used to detect students cheating during exams by utilizing AI technology that focuses on Computer vision
+                    </p>
+                    <a href="#detection" class="hero-btn">LAUNCH</a>
+                </div>
+                
+            </div>
+        </div>
+
+        <section id="about">
+            <div class="container">
+                <div class="title-black">
+                    <h3>About Apps</h3>
+                </div>
+                <div class="deskripsi">
+                    <div class="des-item card">
+                        <p>ProctrON adalah aplikasi berbasis website yang mendeteksi gestur kepala peserta. Apabila kepala peserta menengok ke kiri atau kanan maka akan terdeteksi 'Tidak Fokus' atau dapat disimpulkan sebagai percobaan menyontek</p>
+                    </div>
+                    <!--
+                    <div class="des-item card">
+                        <p>Diciptakannya ProctrON untuk membenahi sistem pengawasan yang masih bergantung pada seorang pengawas ke dalam pengawasan berbasis teknologi untuk mengoptimalkan proses pengawasan ujian dan diharapkan dapat mengurangi tingkat kecurangan.</p>
+                    </div> -->
+                    <div class="how-use">
+                        <p>How to Use Our Apps</p>
+                        <img src="static/images/step by step.jpg" alt="">
+                    </div>
+                    <!--
+                    <div class="des-item card">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae corporis facere rem nam veniam necessitatibus soluta, accusantium sed repudiandae obcaecati hic recusandae, non suscipit excepturi quis possimus ducimus ut.</p>
+                    </div>
+                    <div class="des-item card">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vitae corporis facere rem nam veniam necessitatibus soluta, accusantium sed repudiandae obcaecati hic recusandae, non suscipit excepturi quis possimus ducimus ut.</p>
+                    </div> -->
+                </div>
+            </div>
+         </section>
+
+        <section id="detection">
+            <div class="container">
+                <div class="title">
+                    <h3>CHEATING DETECTION</h3>
+                </div>
+                <div>
+                    <a id="cam-preview" href="" class="btn-open">Open Webcam</a>
+                </div>
+                <img id="videoElement" src="{{ url_for('video_feed') }}" />
+            </div>
+         </section>
+
+         <!-- <section id="result">
+             <div class="container">
+                 <div class="title-black">
+                    <h3>Result Of Analytics</h3> 
+                </div>
+                <div id="">
+
+                </div>
+             </div>
+         </section> -->
+
+         <section id="team">
+             <div class="">
+                <div class="title-black">
+                    <h3>
+                        Our Team
+                    </h3> 
+                </div>
+                <div class="team">
+                    <div class="team-item">
+                        <img src="static/images/zikri.jpeg" alt="">
+                        <h4>Zikri Ramadhani</h4>
+                        <p>Leader Team</p>
+                        <p>Kelas Ragnarok</p>
+                    </div>
+                    <div class="team-item">
+                        <img src="static/images/alifa.jpeg" alt="">
+                        <h4>Alifa Nadhira</h4>
+                        <p>Training & Modelling</p>
+                        <p>Kelas Ragnarok</p>
+                    </div>
+                    <div class="team-item">
+                        <img src="static/images/laily.jpeg" alt="">
+                        <h4>Nur Laily Afiah</h4>
+                        <p>Training & Modelling</p>
+                        <p>Kelas Eunoia</p>
+                    </div>
+                    <div class="team-item">
+                        <img src="static/images/dela.jpg" alt="">
+                        <h4>Dela Rista Damayanti</h4>
+                        <p>Deployment</p>
+                        <p>Kelas Ragnarok</p>
+                    </div>
+                    <div class="team-item">
+                        <img src="static/images/fani.jpeg" alt="">
+                        <h4>Fani Oktaf Laurisa</h4>
+                        <p>Deployment</p>
+                        <p>Kelas Jatayu</p>
+                    </div>             
+                </div>
+             </div>
+         </section>
+
+         <footer>
+             <div class="copyright">
+                <p>&#169; ANALYZE - 2022 </p>
+             </div>
+         </footer>
+    </body>
+
+<!-- Scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+
+</html>
