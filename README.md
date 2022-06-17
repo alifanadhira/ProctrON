@@ -1,13 +1,13 @@
 # ProctrON
-Proyek Akhir Studi Independen di OFA - AI Mastery.
+Proyek Akhir Studi Independen di OFA - AI Mastery.<br>
 
 Aplikasi ProctrON adalah aplikasi berbasis website yang mana dapat mendeteksi gesture kepala manusia saat menengok ke kiri atau ke kanan.
-Ditujukan untuk deteksi menyontek atau tidak saat ujian.
+Ditujukan untuk deteksi menyontek atau tidak saat ujian.<br>
 Aplikasi ini dikembangkan untuk memenuhi persyaratan proyek akhir studi independen bersertifikat di PT. Orbit Future Academy dengan fokus AI Mastery.
 
-Pengembang Aplikasi:
-  Zikri Ramadhani (Leader Team)
-  Alifa Nadhira P (Training & Modelling)
-  Nur Laily Afiah (Training & Modelling)
-  Dela Rista Damayanti (Deployment)
-  Fani Oktaf Laurisa (Deployment)
+Pengembang Aplikasi:<br>
+  Zikri Ramadhani (Leader Team)<br>
+  Alifa Nadhira P (Training & Modelling)<br>
+  Nur Laily Afiah (Training & Modelling)<br>
+  Dela Rista Damayanti (Deployment)<br>
+  Fani Oktaf Laurisa (Deployment)<br>
