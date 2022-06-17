@@ -8,8 +8,7 @@ Aplikasi ini dikembangkan untuk memenuhi persyaratan proyek akhir studi independ
 
 ### Dokumentasi Applikasi Web
 <br>
-![Halaman Utama Web](/images/main.jpg)
-
+[![CircleCI](https://github.com/alifanadhira/ProctrON/blob/main/images/main.jpg)]
 
 
 
