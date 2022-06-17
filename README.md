@@ -6,15 +6,23 @@ Ditujukan untuk deteksi menyontek atau tidak saat ujian.<br>
 Aplikasi ini menggunakan framework YOLOv4 by [Darknet](https://pages.github.com/AlexeyAB/darknet) dengan algoritma CNN. <br>
 Aplikasi ini dikembangkan untuk memenuhi persyaratan proyek akhir studi independen bersertifikat di PT. Orbit Future Academy dengan fokus AI Mastery.
 
-### Dokumentasi Applikasi Web
-<br>
-[![CircleCI](https://github.com/alifanadhira/ProctrON/blob/main/images/main.jpg)]
+### Dokumentasi Aplikasi Web
+
+![](images/main.jpg)
+![](images/about.jpg)
+![](images/deteksi1.jpg)
+![](images/deteksi2.jpg)
+![](images/dashboard.jpg)
+![](images/team.jpg)
 
 
 
-Pengembang Aplikasi:<br>
-  Zikri Ramadhani (Leader Team)<br>
-  Alifa Nadhira P (Training & Modelling)<br>
-  Nur Laily Afiah (Training & Modelling)<br>
-  Dela Rista Damayanti (Deployment)<br>
-  Fani Oktaf Laurisa (Deployment)<br>
+#### App Dev:
+  - [Zikri Ramadhani](https://github.com/lyleoo) (Leader Team)
+  - [Alifa Nadhira P](https://github.com/alifanadhira) (Training & Modelling)
+  - [Nur Laily Afiah](https://github.com/lailyafiah) (Training & Modelling
+  - [Dela Rista Damayanti](https://github.com/delarista) (Deployment)
+  - [Fani Oktaf Laurisa](https://github.com/fandenfraat) (Deployment)
+
+<br><br>
+&copy;Analyze Team - 2022
