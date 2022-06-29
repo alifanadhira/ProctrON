@@ -21,7 +21,7 @@ Aplikasi ini dikembangkan untuk memenuhi persyaratan proyek akhir studi independ
   - [Zikri Ramadhani](https://github.com/lyleoo) (Leader Team)
   - [Alifa Nadhira P](https://github.com/alifanadhira) (Training & Modelling)
   - [Nur Laily Afiah](https://github.com/lailyafiah) (Training & Modelling
-  - [Dela Rista Damayanti](https://github.com/delarista) (Deployment)
+  - [Dela Rista Damayanti](https://github.com/Delarista) (Deployment)
   - [Fani Oktaf Laurisa](https://github.com/fandenfraat) (Deployment)
 
 <br><br>
